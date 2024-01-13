@@ -5,8 +5,12 @@
 //     то виводити в консоль текст "Ми йдемо в інше кафе"
 //     (Змінні типу інтеджер містять кількість продуктів в наявності у вигляді вхідних даних)
 
-let hamburgers = 5;
+let hamburgers = 1;
 let fries = 2;
 
-if(hamburgers >= 4 && fries>=1){console.log("Ми поїли")}else(console.log("Ми йдемо в інше кафе"));
+if(hamburgers >= 4 && fries>=1){
+    console.log("Ми поїли");
+} else {
+    console.log("Ми йдемо в інше кафе");
+}
 
